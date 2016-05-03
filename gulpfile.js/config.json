@@ -20,7 +20,7 @@
       "src": "javascripts",
       "dest": "javascripts",
       "entries": {
-        "app": ["./app.js"]
+        "app": [ "bootstrap-loader","./app.js"]
       },
       "extensions": ["js", "json"],
       "babel": {
@@ -38,7 +38,7 @@
       "sass": {
         "indentedSyntax": true,
         "includePaths": [
-          "./node_modules/normalize.css"
+          "./node_modules/bootstrap-sass/assets/stylesheets"
         ]
       },
       "extensions": ["sass", "scss", "css"]

@@ -1,0 +1,19 @@
+---
+bootstrapVersion: 3
+# You can use comments here
+useFlexbox: true
+
+styleLoaders:
+  - style
+  - css
+  - sass
+
+styles:
+  normalize: true
+  print: true
+
+scripts:
+  dropdown: true
+  modal: true
+  alert: true
+  button: true

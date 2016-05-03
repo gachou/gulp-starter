@@ -32,6 +32,10 @@ module.exports = function(env) {
           loader: 'babel-loader',
           exclude: /node_modules/,
           query: config.tasks.js.babel
+        },
+        {
+          test: /bootstrap-sass\/assets\/javascripts\//,
+          loader: 'imports?jQuery=jquery'
         }
       ]
     }
