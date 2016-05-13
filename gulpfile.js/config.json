@@ -20,9 +20,10 @@
       "src": "javascripts",
       "dest": "javascripts",
       "entries": {
-        "app": [ "bootstrap-loader","./app.js"]
+        "app": [ "bootstrap-loader","./app.js"],
+        "serviceWorker" : [ "./serviceWorker.js"]
       },
-      "extensions": ["js", "json"],
+      "extensions": ["js", "json","ract"],
       "babel": {
         "presets": ["es2015", "stage-1"],
         "plugins": []

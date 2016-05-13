@@ -1,0 +1,15 @@
+<div class="panel panel-primary">
+    <div class="panel-body">
+        <form>
+            <div class="form-group">
+                <label for="inputSearchString">Search</label>
+                <input type="text" class="form-control" id="inputSearchString" placeholder="Search" value="{{search.searchString}}">
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    console.log("search-box")
+
+</script>

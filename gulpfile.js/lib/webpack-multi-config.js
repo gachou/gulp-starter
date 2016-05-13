@@ -36,6 +36,10 @@ module.exports = function(env) {
         {
           test: /bootstrap-sass\/assets\/javascripts\//,
           loader: 'imports?jQuery=jquery'
+        },
+        {
+          test: /\.ract$/,
+          loader: 'ractive-component'
         }
       ]
     }
